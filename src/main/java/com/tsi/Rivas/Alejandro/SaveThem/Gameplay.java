@@ -29,8 +29,47 @@ public class Gameplay {
             Thread.sleep(600);
 
             System.out.println("You have three abilities, the first is " + Brawler.getAbility1() + ", which deals damage.");
+            Thread.sleep(300);
             System.out.println("The second is " + Brawler.getAbility2() + ", which reduces damage taken from the next attack on you.");
+            Thread.sleep(300);
             System.out.println("The third is " + Brawler.getAbility3() + ", which has a 50% chance of stunning your enemy, missing their fighting turn");
+            Thread.sleep(300);
+            System.out.println("Your special ability is " + Brawler.getSpecial_Ability());
+            Thread.sleep(1000);
+
+        }
+        if (character_Type == "Mage") {
+
+            System.out.println("Name: " + Mage.getName());
+            System.out.println("HP: " + Mage.getHP());
+            System.out.println("AD: " + Mage.getAD());
+            Thread.sleep(600);
+
+            System.out.println("You have three abilities, the first is " + Mage.getAbility1() + ", which deals damage.");
+            Thread.sleep(300);
+            System.out.println("The second is " + Mage.getAbility2() + ", which protects you from the enemy's next attack.");
+            Thread.sleep(300);
+            System.out.println("The third is " + Mage.getAbility3() + ", which reduces the enemy's attack damage");
+            Thread.sleep(300);
+            System.out.println("Your special ability is " + Mage.getSpecial_Ability());
+            Thread.sleep(1000);
+
+        }
+        if (character_Type == "Assassin") {
+
+            System.out.println("Name: " + Assassin.getName());
+            System.out.println("HP: " + Assassin.getHP());
+            System.out.println("AD: " + Assassin.getAD());
+            Thread.sleep(600);
+
+            System.out.println("You have three abilities, the first is " + Assassin.getAbility1() + ", which deals melee damage.");
+            Thread.sleep(300);
+            System.out.println("The second is " + Assassin.getAbility2() + ", which deals long range damage.");
+            Thread.sleep(300);
+            System.out.println("The third is " + Assassin.getAbility3() + ", which allows you to see in the dark");
+            Thread.sleep(300);
+            System.out.println("Your special ability is " + Brawler.getSpecial_Ability());
+            Thread.sleep(1000);
 
         }
 
